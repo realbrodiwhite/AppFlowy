@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@emoji-mart/data':
     specifier: ^1.1.2
@@ -74,8 +78,8 @@ dependencies:
     specifier: ^3.7.5
     version: 3.7.5
   katex:
-    specifier: ^0.16.7
-    version: 0.16.7
+    specifier: ^0.16.10
+    version: 0.16.10
   lodash-es:
     specifier: ^4.17.21
     version: 4.17.21
@@ -4975,8 +4979,8 @@ packages:
       object.assign: 4.1.4
     dev: true
 
-  /katex@0.16.7:
-    resolution: {integrity: sha512-Xk9C6oGKRwJTfqfIbtr0Kes9OSv6IFsuhFGc7tW4urlpMJtuh+7YhzU6YEG9n8gmWKcMAFzkp7nr+r69kV0zrA==}
+  /katex@0.16.10:
+    resolution: {integrity: sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==}
     hasBin: true
     dependencies:
       commander: 8.3.0
@@ -5864,7 +5868,7 @@ packages:
       prop-types: ^15.8.1
       react: '>=15.3.2 <=18'
     dependencies:
-      katex: 0.16.7
+      katex: 0.16.10
       prop-types: 15.8.1
       react: 18.2.0
     dev: false
@@ -7196,7 +7200,3 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
